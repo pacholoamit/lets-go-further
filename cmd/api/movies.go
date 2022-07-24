@@ -24,6 +24,7 @@ func (app *application) createMovieHandler(w http.ResponseWriter, r *http.Reques
 		return
 	}
 
+	// Decode input into intermediary struct for validation
 	movie := &data.Movie{
 		Title:   input.Title,
 		Year:    input.Year,
