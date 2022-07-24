@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ubuntu/documents/docker-compose/syncthing/data/code-workspace/golang/lets-go-further'
+make: Leaving directory '/home/ubuntu/documents/docker-compose/syncthing/data/code-workspace/golang/lets-go-further'
+ 
+make: *** No targets.  Stop.
+
