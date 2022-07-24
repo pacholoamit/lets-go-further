@@ -63,6 +63,7 @@ func (m MovieModel) Get(id int64) (*Movie, error) {
 	err := m.DB.QueryRow(query, id).Scan(
 		&movie.ID,
 		&movie.CreatedAt,
+		&movie.Title,
 		&movie.Year,
 		&movie.Runtime,
 		pq.Array(&movie.Genres),
